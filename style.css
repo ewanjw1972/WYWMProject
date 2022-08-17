@@ -1,0 +1,32 @@
+h1, .view {
+    text-align: center;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+#bg {
+    background-image: url(system.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    border-style: solid;
+    border-left-width: 10px;
+    border-right-width: 10px;
+}
