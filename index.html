@@ -25,14 +25,15 @@
             been collecting and displaying from their various sources. Please click on
             whichever one you wish to view !
           </p>
-          <select>
-              <option>Test Option</option>
+          <select name="photos" id="photo-list">
+              <option>Please choose</option>
+              <option value="APOD">Astronomy photo</option>
+              <option value="MRP">Mars Rover photo</option>
           </select>
-          <input type="button" name="button" value="View">
           <br/>
     </div>
     <div>
-        <img src="" alt="">
+        <img id="photo-image" alt="Latest image"></img>
     </div>
   </body>
 </html>

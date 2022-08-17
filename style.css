@@ -30,3 +30,7 @@ p {
     border-left-width: 10px;
     border-right-width: 10px;
 }
+
+#photo-image {
+  display: none;
+}
